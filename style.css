@@ -1,0 +1,241 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:67.702%;
+    align-items: center;
+    /* flex-wrap: wrap; */
+ }
+ header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin: 53px 0 136px 0;
+    align-items: center;
+    padding: 0 18.1004%;
+    width: 63.8%;
+    max-height: 65px;
+
+}
+a{
+    text-decoration: none;
+    color:rgba(55, 57, 63, 1);
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+
+
+
+ }
+.getConsulting{
+    background-color: rgba(107, 119, 229, 1);
+    font-family: Cabin;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+color:white;
+padding: 2.61% 4.1%;
+}
+.title, .team .title{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items:center;
+    margin-bottom:8%;
+    align-self: center;
+}
+.cardWrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 63.874%;
+    margin-bottom:60px;
+   
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(244, 244, 244, 1);
+    /* padding: 9.3444% 0; */
+    /* align-items: center;*/
+    padding: 3% 2.5%;
+    height: 19.37em;
+    justify-content: space-evenly;
+}
+      
+    
+.card-2{
+ margin-left:2.54%;
+ margin-right: 2.54%;
+}
+ .wrapper .card p, p{
+    color:rgba(125, 125, 125, 1);
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ .wrapper .card h3, h3{
+    color:rgba(55, 57, 63, 1);
+    font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ .wrapper .card .Testimonials{
+color:rgba(107, 119, 229, 1);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+ }
+ .wrapper .card img{width:18.6%;
+height:18.6%;
+align-self: center;}
+
+.video{
+    background-image: url(./assets/Mask\ group\ \(1\).svg);
+    background-image: url(./assets/Mask\ group\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 34.8125em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:130px;
+}
+.video-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 48.5%;
+    width: 27%;
+}
+.video p{
+    color: rgba(55, 57, 63, 1);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.video h3 {
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+color:rgba(55, 57, 63, 1);
+text-align: center;
+}
+.video button{
+    display: inline-block;
+    position: relative;
+   border:none;
+   cursor: pointer;
+    overflow: hidden;
+    padding: 6.27% 6.27%;
+    border-radius: 50%;
+    background-color:rgba(107, 119, 229, 1) ;
+}
+.buttonIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team{
+    width:63.54%;
+    height:659px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:131px;
+}
+.expertsCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.photo-1{
+background-image: url(./assets/natasha.svg);
+background-size: cover;
+background-position: center;
+}
+.photo-2{
+    background-image: url(./assets/davit.svg);
+    background-size: cover;
+    background-position: center;
+    margin-left:32px;
+    margin-right:32px;
+    }
+    .photo-3{
+        background-image: url(./assets/medeline.svg);
+        background-size: cover;
+        background-position: center;
+        }
+
+        .photo{
+            width: 31.6%;
+            height: 33.25em;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+              align-items: center;
+              
+        }
+        .info{
+           background-color:  rgba(255, 255, 255, 1);
+           width:88.4%;
+           height:21.4%;
+           display: flex;
+           flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+        }
+
+ h2{
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(55, 57, 63, 1);
+
+ }
+ h4{
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+color: rgba(55, 57, 63, 1);
+ }
